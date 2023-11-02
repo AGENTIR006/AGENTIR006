@@ -1,14 +1,3 @@
-local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/aaaa"))()
-
-local UI = GUI:CreateWindow("the um","lop")
-
-local Home = UI:addPage("Home",1,true,6)
-
-Home:addLabel("This is a Label","Lol this funny")
-
-Home:addButton("This is a button",function()
-    game.StarterGui:SetCore("SendNotification",{
-        Title = "Clicked";
-        Text = "Lo";
-    })
-end)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Goat-poop/main/Windows%2010%20UI%20Library"))()
+local MainWindow = Library.Main("GuiName","KeyBind")
+local Category = MainWindow.Category("Your Text","ImageId","ImageScaleType",Image Transparency)
