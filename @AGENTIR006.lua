@@ -8,17 +8,6 @@ label:UpdateLabel("New Text")
 Section:NewButton("ButtonText", "ButtonInfo", function()
     print("Clicked")
 end)
-button:UpdateButton("New Text")
-
-
-
-
-
-
-
-
-
-
 
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
 	Library:ToggleUI()
